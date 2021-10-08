@@ -12,7 +12,7 @@
     border: 1px solid rgb(168, 124, 182);
     background-image: linear-gradient(rgb(61, 65, 78), rgb(41, 24, 102));
     border-radius: 10px;
-    width: 70vw;
+    min-width: 70vw;
     height: 90vh;
 }
 
