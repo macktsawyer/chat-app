@@ -1,0 +1,18 @@
+.avatarImage {
+    align-self: center;
+    height: 25px;
+    width: 25px;
+    margin: 10px;
+}
+
+.messageStyle {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    width: 600px;
+}
+
+.timeStamp {
+    align-self: center;
+    margin: 10px;
+}
