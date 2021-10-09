@@ -46,3 +46,50 @@
 .loggedOutText {
     color: rgb(241, 187, 105);
 }
+
+@media screen and (max-width: 800px) {
+    .Container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 25px;
+        border: 1px solid rgb(168, 124, 182);
+        background-image: linear-gradient(rgb(61, 65, 78), rgb(41, 24, 102));
+        border-radius: 10px;
+        min-width: 70vw;
+        height: 90vh;
+    }
+
+    .ChatTitle {
+        align-self: top;
+        font-size: 50%;
+        color: rgb(248, 207, 132);
+    }
+    
+    .ChatWindow {
+        display: flex;
+        justify-content: flex-start;
+        align-self: center;
+        border: 1px solid rgb(133, 101, 161);
+        border-radius: 5px;
+        height: 100%;
+        width: 100%;
+    }
+
+    .MessagesList {
+        list-style: none;
+        font-weight: bold;
+        width: 100%;
+        color: rgb(250, 213, 134);
+    }
+    
+    .InputDiv {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+    
+    .loggedOutText {
+        color: rgb(241, 187, 105);
+    }
+}
