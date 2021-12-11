@@ -9,8 +9,8 @@
     justify-content: space-between;
     align-items: center;
     margin-top: 25px;
-    border: 1px solid rgb(168, 124, 182);
-    background-image: linear-gradient(rgb(255, 255, 255), rgb(177, 159, 250));
+    border: 1px solid rgb(124, 125, 182);
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(155, 149, 248));
     border-radius: 10px;
     min-width: 70vw;
     height: 90vh;
@@ -19,14 +19,14 @@
 
 .ChatTitle {
     align-self: top;
-    color: rgb(63, 1, 78);
+    color: rgb(78, 110, 196);
 }
 
 .ChatWindow {
     display: flex;
     justify-content: flex-start;
     align-self: center;
-    border: 1px solid rgb(63, 1, 78);
+    border: 1px solid rgb(124, 125, 182);
     border-radius: 5px;
     height: 80%;
     width: 80%;
@@ -36,7 +36,7 @@
     list-style: none;
     font-weight: bold;
     width: 80%;
-    color: rgb(63, 1, 78);
+    color: rgb(66, 67, 151);
 }
 
 .InputDiv {
@@ -45,7 +45,7 @@
 }
 
 .loggedOutText {
-    color: rgb(63, 1, 78);
+    color: rgb(27, 28, 92);
 }
 
 @media screen and (max-width: 800px) {
@@ -55,8 +55,8 @@
         justify-content: space-between;
         align-items: center;
         margin-top: 25px;
-        border: 1px solid rgb(168, 124, 182);
-        background-image: linear-gradient(rgb(61, 65, 78), rgb(41, 24, 102));
+        border: 1px solid rgb(124, 125, 182);
+        background-image: linear-gradient(rgb(61, 65, 78), rgb(36, 24, 102));
         border-radius: 10px;
         min-width: 70vw;
         height: 90vh;
@@ -72,7 +72,7 @@
         display: flex;
         justify-content: flex-start;
         align-self: center;
-        border: 1px solid rgb(133, 101, 161);
+        border: 1px solid rgb(124, 125, 182);
         border-radius: 5px;
         height: 100%;
         width: 100%;
